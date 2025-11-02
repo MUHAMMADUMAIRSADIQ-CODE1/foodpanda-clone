@@ -282,7 +282,7 @@ input {
       }
     }
 
-    /* 💻 Tablets */
+    
     @media (max-width: 768px) {
       .v-container {
         height: 65vh;
@@ -307,7 +307,6 @@ input {
       }
     }
 
-    /* 🖥️ Small Laptops */
     @media (max-width: 1024px) {
       #im,
       #img2 {
