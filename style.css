@@ -177,7 +177,7 @@ input {
   align-items: center;
   justify-content: center;
 }
-@media (min-width:0px) and (max-width:480px) 
+/* @media (min-width:0px) and (max-width:480px) 
 {
 .flex{
   display: flex;
@@ -186,7 +186,7 @@ input {
     padding: 1rem;
     width: 100%;
 }
-}
+} */
 #im {
   width: 45vw;
   height: 80%;
@@ -220,4 +220,170 @@ input {
   gap: 8rem;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 480px) {
+
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem 1rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav>a {
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+  }
+
+  .logo {
+    padding: 0;
+    margin: 0.5rem 0;
+  }
+
+  .but {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .v-container {
+    height: 40vh;
+    margin-top: 6rem;
+  }
+
+  #heading {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+
+  .t-container {
+    margin: 2rem 1rem;
+    width: 90%;
+  }
+
+  #tex {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+  }
+
+  .flex, .flex1 {
+    flex-direction: column;
+    height: auto;
+    gap: 1.5rem;
+    margin: 3rem 0;
+  }
+
+  #im, #img2 {
+    width: 90%;
+    height: auto;
+  }
+
+  .texf, .text2 {
+    width: 90%;
+    text-align: center;
+  }
+
+  #buty {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .img1 img {
+    width: 90px;
+    margin: 0.3rem;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  .nav-container {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+
+  .nav>a {
+    font-size: 0.95rem;
+    margin-right: 1rem;
+  }
+
+  .v-container {
+    height: 50vh;
+  }
+
+  #heading {
+    font-size: 3rem;
+  }
+
+  .t-container {
+    width: 80%;
+  }
+
+  #tex {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  .flex, .flex1 {
+    flex-direction: column;
+    gap: 2rem;
+    height: auto;
+  }
+
+  #im, #img2 {
+    width: 80%;
+    height: auto;
+  }
+
+  .texf, .text2 {
+    width: 80%;
+  }
+
+  #buty {
+    font-size: 1rem;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+
+  .nav>a {
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+
+  .v-container {
+    height: 60vh;
+  }
+
+  #heading {
+    font-size: 3.2rem;
+  }
+
+  .t-container {
+    width: 70%;
+  }
+
+  .flex, .flex1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: auto;
+  }
+
+  #im, #img2 {
+    width: 45%;
+  }
+
+  .texf, .text2 {
+    width: 45%;
+  }
 }
