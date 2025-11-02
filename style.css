@@ -211,9 +211,7 @@ input {
   height: 80%;
   object-fit: cover;
 }
-.text2{
-  /* margin-left: 4rem; */
-}
+
 .flex1 {
   display: flex;
   margin:4rem 0rem 0rem 0rem;
